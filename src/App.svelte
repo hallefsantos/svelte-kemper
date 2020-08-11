@@ -1,7 +1,8 @@
 <script>
-  import Tailwindcss from "./Tailwindcss.svelte";
+  import Tailwindcss from "./Tailwindcss.svelte"
+  import Button from "./components/Button.svelte"
 
-  export let name;
+  export let name
 </script>
 
 
@@ -162,6 +163,6 @@
       <span class="text-gray-900 text-4xl font-bold">$2,717</span>
       <p class="hidden sm:block text-gray-500">Need a financing? <a href="#" class="underline">Learn more</a></p>
     </div>
-    <a href="#" class="inline-block text-white bg-gray-900 px-5 py-3 sm:mb-3 rounded-lg">Buy now</a>
+    <Button>Buy now</Button>
   </div>
 </footer>
