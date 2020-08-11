@@ -144,11 +144,24 @@
   </div>
 </main>
 
-<footer class="py-5 px-4 bg-gray-50 border-t border-gray-200">
-  <div class="flex items-center justify-between">
+<footer class="py-5 px-4 sm:px-10 bg-gray-50 border-t border-gray-200">
+  <div class="flex items-center sm:items-end justify-between">
+    <div class="hidden sm:block">
+      <ul>
+        <li class="flex items-center mb-3">
+          <svg class="mr-3" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 16A8 8 0 108 0a8 8 0 000 16zM2.332 6.027a6.012 6.012 0 011.912-2.706C4.512 3.73 4.974 4 5.5 4A1.5 1.5 0 017 5.5V6a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0114 8c0 .34-.028.675-.083 1H13a2 2 0 00-2 2v2.197A5.973 5.973 0 018 14v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" fill="#9FA6B2"/></svg>
+          Free Shipping
+        </li>
+        <li class="flex items-center">
+          <svg class="mr-3" width="16" height="18" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.166 3.999A11.954 11.954 0 008 .944 11.954 11.954 0 0015.834 4c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C3.34 15.67 0 11.225 0 6c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L7 9.586 5.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill="#9FA6B2"/></svg>
+          2 Year Warranty
+        </li>
+      </ul>
+    </div>
     <div class="flex-1 text-right pr-5">
       <span class="text-gray-900 text-4xl font-bold">$2,717</span>
+      <p class="hidden sm:block text-gray-500">Need a financing? <a href="#" class="underline">Learn more</a></p>
     </div>
-    <a href="#" class="inline-block text-white bg-gray-900 px-5 py-3 rounded-lg">Buy now</a>
+    <a href="#" class="inline-block text-white bg-gray-900 px-5 py-3 sm:mb-3 rounded-lg">Buy now</a>
   </div>
 </footer>
