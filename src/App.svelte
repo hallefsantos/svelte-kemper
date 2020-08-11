@@ -163,6 +163,6 @@
       <span class="text-gray-900 text-4xl font-bold">$2,717</span>
       <p class="hidden sm:block text-gray-500">Need a financing? <a href="#" class="underline">Learn more</a></p>
     </div>
-    <Button>Buy now</Button>
+    <Button src="#">Buy now</Button>
   </div>
 </footer>
