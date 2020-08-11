@@ -17,6 +17,8 @@ module.exports = {
       white: '#FFF',
     }
   },
-  variants: {},
+  variants: {
+    textColor: ['responsive', 'hover', 'focus', 'visited'],
+  },
   plugins: []
 }
