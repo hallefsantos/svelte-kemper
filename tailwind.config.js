@@ -14,6 +14,7 @@ module.exports = {
         800: '#252F3F',
         900: '#161E2E',
       },
+      white: '#FFF',
     }
   },
   variants: {},
