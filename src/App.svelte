@@ -8,14 +8,14 @@
 <Tailwindcss />
 
 
-<header class="px-4 pt-12 pb-8">
+<header class="px-4 sm:px-10 pt-12 pb-8">
   <div class="border-b border-gray-300 pb-5">
     <h1 class="font-extrabold text-4xl text-gray-900 leading-none tracking-tight">Get your Kemper Profiling Amp</h1>
-    <p class="text-2xl text-gray-500 mt-4 font-light leading-tight">All your favorite amps and effects, together in one little box.</p>
+    <p class="text-2xl sm:text-2xl text-gray-500 mt-4 font-light leading-tight">All your favorite amps and effects, together in one little box.</p>
   </div>
 </header>
 
-<main class="px-4 pb-12">
+<main class="px-4 sm:px-10 pb-12">
   <div class="mb-8">
     <div class="border border-gray-200 rounded-lg shadow-sm py-2">
       <img class="mx-auto" src="/img/head-black_front.png" alt="">
@@ -39,21 +39,21 @@
     <p class="text-gray-900 text-xl font-normal mt-5 leading-snug">
       The KEMPER PROFILER™ is the leading-edge digital guitar amplifier and all-in-one effects processor.
     </p>
-    <p class="text-gray-500 text-lg mt-5">
+    <p class="text-gray-500 font-light text-lg mt-5">
       Hailed as a game-changer by guitarists the world over, the PROFILER™ is the first digital guitar amp to really nail the full and dynamic sound of a guitar or bass amp.
     </p>
-    <p class="text-gray-500 text-lg mt-5">
+    <p class="text-gray-500 font-light text-lg mt-5">
       This is made possible by a radical, patented technology and concept which we call "PROFILING".
     </p>
 
     <div class="mt-12 text-gray-900">
       <h4 class="text-lg mb-3 font-medium text-gray-900">Form Factor</h4>
-      <div class="">
-        <div class="border-2 border-gray-700 rounded-lg p-5 px-6 mb-5 shadow-sm">
+      <div class="sm:flex sm:justify-between sm:items-start">
+        <div class="sm:w-1/2 sm:mr-2 border-2 border-gray-700 rounded-lg p-5 px-6 mb-5 shadow-sm">
           <strong class="text-sm mb-2 font-medium block">Profiler Head</strong>
           <p class="text-sm leading-normal font-light text-gray-500">Compact amplifier head, perfect for a speaker cabinet or desk.</p>
         </div>
-        <div class="border border-gray-200 rounded-lg p-5 px-6 shadow-sm">
+        <div class="sm:w-1/2 sm:ml-2 border border-gray-200 rounded-lg p-5 px-6 shadow-sm">
           <strong class="text-sm mb-2 font-medium block">Profiler Rack</strong>
           <p class="text-sm leading-normal font-light text-gray-500">3U rackmount version of the classic profiling amplifier.</p>
         </div>
