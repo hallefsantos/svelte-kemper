@@ -9,7 +9,7 @@
 <Tailwindcss />
 
 
-<header class="px-4 sm:px-10 pt-12 pb-8 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl md:mx-auto">
+<header class="px-4 sm:px-10 pt-12 pb-8 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
   <div class="border-b border-gray-300 pb-5">
     <h1 class="font-extrabold text-4xl text-gray-900 leading-none tracking-tight">Get your Kemper Profiling Amp</h1>
     <p class="text-2xl sm:text-2xl text-gray-500 mt-4 font-light leading-tight">All your favorite amps and effects,
@@ -17,7 +17,7 @@
   </div>
 </header>
 
-<main class="px-4 sm:px-10 pb-12 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl md:mx-auto">
+<main class="px-4 sm:px-10 pb-12 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
   <div class="lg:flex">
     <div class="mb-8 lg:w-1/2 lg:pr-4">
       <div class="border border-gray-200 rounded-lg shadow-sm py-2">
@@ -53,12 +53,12 @@
       <div class="mt-12 lg:mt-8 text-gray-900">
         <h4 class="text-lg mb-3 font-medium text-gray-900">Form Factor</h4>
         <div class="sm:flex sm:justify-between sm:items-start">
-          <div class="sm:w-1/2 sm:mr-2 border-2 border-gray-700 rounded-lg p-5 px-6 mb-5 shadow-sm cursor-pointer transition duration-300">
+          <div class="sm:w-1/2 sm:mr-2 border-2 border-gray-700 rounded-lg p-5 px-6 xl:px-4 mb-5 shadow-sm cursor-pointer transition duration-300">
             <strong class="text-sm mb-2 font-medium block">Profiler Head</strong>
             <p class="text-sm leading-normal font-light text-gray-500">Compact amplifier head, perfect for a speaker
               cabinet or desk.</p>
           </div>
-          <div class="sm:w-1/2 sm:ml-2 border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 shadow-sm cursor-pointer transition duration-300">
+          <div class="sm:w-1/2 sm:ml-2 border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 xl:px-4 shadow-sm cursor-pointer transition duration-300">
             <strong class="text-sm mb-2 font-medium block">Profiler Rack</strong>
             <p class="text-sm leading-normal font-light text-gray-500">3U rackmount version of the classic profiling
               amplifier.</p>
@@ -69,11 +69,11 @@
       <div class="mt-12 text-gray-900">
         <h4 class="text-lg mb-3 font-medium text-gray-900">Power Amp</h4>
         <div class="">
-          <div class="border-2 border-gray-700 rounded-lg p-5 px-6 mb-5 shadow-sm cursor-pointer transition duration-300">
+          <div class="border-2 border-gray-700 rounded-lg p-5 px-6 xl:px-4 mb-5 shadow-sm cursor-pointer transition duration-300">
             <strong class="text-sm mb-2 font-medium block">None</strong>
             <p class="text-sm leading-normal font-light text-gray-500">Use in the studio or with your own power amp.</p>
           </div>
-          <div class="border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 shadow-sm cursor-pointer transition duration-300">
+          <div class="border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 xl:px-4 shadow-sm cursor-pointer transition duration-300">
             <strong class="text-sm mb-2 font-medium block">Powered</strong>
             <div class="flex justify-between">
               <p class="flex-1 text-sm leading-normal font-light text-gray-500">3U rackmount version of the classic
@@ -87,10 +87,10 @@
       <div class="mt-12 text-gray-900">
         <h4 class="text-lg mb-3 font-medium text-gray-900">Foot Controller</h4>
         <div class="">
-          <div class="border-2 border-gray-700 rounded-lg p-5 px-6 mb-5 shadow-sm cursor-pointer transition duration-300">
+          <div class="border-2 border-gray-700 rounded-lg p-5 px-6 xl:px-4 mb-5 shadow-sm cursor-pointer transition duration-300">
             <strong class="text-sm font-medium block">None</strong>
           </div>
-          <div class="border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 shadow-sm cursor-pointer transition duration-300">
+          <div class="border border-gray-200 hover:border-gray-400 rounded-lg p-5 px-6 xl:px-4 shadow-sm cursor-pointer transition duration-300">
             <div class="flex justify-between">
               <p class="flex-1 text-sm font-medium block">Profiler Remote Foot Controller</p>
               <span class="text-sm font-light ml-3">+ $449</span>
@@ -152,7 +152,7 @@
 </main>
 
 <footer class="bg-gray-50 border-t border-gray-200">
-  <div class="py-5 px-4 sm:px-10 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl md:mx-auto">
+  <div class="py-5 px-4 sm:px-10 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
     <div class="flex items-center sm:items-end justify-between">
       <div class="hidden sm:block">
         <ul class="lg:flex lg:max-w-xl">
