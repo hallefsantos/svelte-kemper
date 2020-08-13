@@ -17,7 +17,7 @@
   </div>
 </header>
 
-<main class="px-4 sm:px-10 pb-12 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
+<main class="px-4 sm:px-10 pb-40 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
   <div class="lg:flex">
     <div class="mb-8 lg:w-1/2 lg:pr-4">
       <div class="border border-gray-200 rounded-lg shadow-sm py-2">
@@ -151,7 +151,7 @@
   </div>
 </main>
 
-<footer class="bg-gray-50 border-t border-gray-200">
+<footer class="bg-gray-50 border-t border-gray-200 fixed bottom-0 w-full">
   <div class="py-5 px-4 sm:px-10 md:px-4 lg:px-6 md:max-w-xl lg:max-w-5xl xl:max-w-6xl md:mx-auto">
     <div class="flex items-center sm:items-end justify-between">
       <div class="hidden sm:block">
